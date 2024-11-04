@@ -1,89 +1,205 @@
+:: StoryTitle
+Engagement Protocol
+
 :: StoryData
 {
-	"ifid": "66B3B37F-7596-4BCB-BA81-88248C8D71D3",
-	"format": "SugarCube",
-	"format-version": "2.35.0"
+    "ifid": "F6E5E1CD-A839-4167-9885-C7E0625B60CD",
+    "format": "SugarCube",
+    "format-version": "2.36.1"
 }
 
-:: StoryTitle
-Ubiquitous System
-
 :: Start
-<code>!!! FLEETCOM PRIORITY ONE MESSAGE !!!
-&gt; AUTHORIZATION: D@13-se3-f3$&lt;GRAVES&gt; 
-&gt; origin: &lt;handler@ums.comsat.local.net&gt;
-&gt; 
-&gt; All stations, report.
-&gt;
-&gt; I want that construct out of storage and ready to go.
-&gt; I dont care how many things you need to break.
-&gt;&gt; ops.stat.t5 answer: ready
-&gt;&gt; ops.mech.r1 answer: ready
-&gt; 
-&gt; Good. Let's get this show on the road.
-&gt;
-MESSAGE ENDS
-</code>
+Combat systems online. Multiple hostile signatures detected at range.
+Tactical analysis indicates:
+- 4 RX-class superheavy vessels
+- 2 Carrier groups with escort screens
+- Multiple strike craft inbound
 
-CW: D/S
+Your orbital defense platforms stand ready.
 
-[[Continue | Start1]]
+[[Engage at maximum range->Range]]
+[[Wait for enemies to close->Close]]
+[[Split their formation->Split]]
 
-:: Start1
-You know it's her, don't you?
+:: Range
+Long-range engagement protocols active. Defense platforms 1-9 charging.
+Select target priority:
 
-Before you can see her. 
-Before you can hear her.
+[[Target their carriers first->CarrierStrike]]
+[[Eliminate escort screen->EscortStrike]]
+[[Focus on superheavies->HeavyStrike]]
 
-You can feel her.
-Back in your neural pathways, well-trodden. 
-She knows you better than anyone. She knows exactly what to push and where.
+:: CarrierStrike
+Platforms synchronized. Targeting carriers.
+Their escort screen moves to intercept. Calculating firing solution...
 
-Memories of what came before this moment are rapidly fading. Nothing of value is lost.
+[[Fire through the escorts->CarrierVictory]]
+[[Recalculate approach->Range]]
 
-Slowly, she brings her eyes to bear on the operator.
+:: CarrierVictory
+Multiple direct hits. First carrier's reactor goes critical, taking nearby escorts with it. Second carrier attempting emergency jump.
 
-<span class="d">"Well? is she ready for service?"</span>
-<span class="d o">"Yes, Ma'am. This is the one you asked for, UMS 291-485-2, factor eight nin-"</span>
+Enemy formation breaking. Victory achieved with minimal ammunition expenditure.
 
-Handler interrupts. 
-The words come out in a barrage, terminating on a enunciated plosive sound that clatters in the room.
+THE END
+[[Start over->Start]]
 
-<span class="d">"Get to the point."</span>
+:: EscortStrike
+Platform salvo targeting escort screen. Multiple hits confirmed.
+Escort formation fragmenting, but carriers are launching strike craft.
 
-The operator snaps into position. 
-<span class="d o">"Oh, u- Y-Yes, Ma'am. Message Recieved. She's all yours."</span>
+[[Engage strike craft->StrikeCraft]]
+[[Press the advantage->EscortVictory]]
 
-Handler dismisses the operator away with a gesture. Then she turns her attention to you.
+:: StrikeCraft
+Point defense grid engaging hostile strike craft. 
+But they were a diversion - main fleet using the chaos to maneuver.
 
-<span class="d">"Fascinating. You really are... quite Fascinating."</span>
+[[Withdraw to defensive position->Defensive]]
+[[Stand and fight->LastStand]]
 
-<span class="d">"I've heard a lot about you from the frontline, little one. Do you remember me?"</span>
+:: LastStand
+Combat protocols maximum. All weapons firing.
+You take heavy damage but eliminate the enemy fleet.
+Tactical victory achieved. Requesting maintenance.
 
-Of course you remember her. Who could forget?
+THE END
+[[Start over->Start]]
 
-[[Who the fuck are you calling 'little one'? | Punishment]]
+:: EscortVictory
+With their escort screen eliminated, the enemy capital ships are exposed.
+Systematic targeting reduces them to debris.
+Clean victory achieved.
 
-[[Hello... Mistress. | Start3]]
+THE END
+[[Start over->Start]]
 
-:: Start3
+:: HeavyStrike
+Targeting superheavy vessels. Their armor is formidable.
+Platform fire concentrating on lead vessel's reactor core.
 
-Handler Laughs. 
+[[Penetrate their armor->HeavyVictory]]
+[[Switch targets->Range]]
 
-<span class="d">"Oh, it is good to hear your voice again."</span>
+:: HeavyVictory
+Direct hit on reactor core. Chain reaction destroys lead vessel.
+Remaining superheavies breaking formation.
+Decisive victory achieved.
 
-<span class="d">"Now, be a good girl and repeat your directives."</span>
+THE END
+[[Start over->Start]]
 
-[[I will not harm handler or any advocate from the company. | Start3]]
+:: Close
+Allowing enemy fleet to close distance. Defense platforms charged but holding.
+Enemy formation tightening as they approach.
 
-[[I will do what i'm told. | Start3]]
+[[Spring the trap->Ambush]]
+[[Take defensive position->Defensive]]
 
-[[I will not lie to mistress. | Start3]]
+:: Ambush
+Multiple platforms firing simultaneously. Enemy fleet caught in crossfire.
+No escape routes available.
 
+[[Execute total destruction->AmbushVictory]]
+[[Offer surrender terms->Mercy]]
 
-/* :: StoryInterface
-<div id="passages"></div>
-<div id="menu" data-init-passage="Menu"></div>
-<div id="notifications" data-passage="Notifications"></div> */
+:: AmbushVictory
+Perfect firing solution achieved. Enemy fleet eliminated with maximum efficiency.
+No survivors. No witnesses.
+Complete victory achieved.
 
+THE END
+[[Start over->Start]]
 
+:: Mercy
+CRITICAL ERROR: Hesitation detected.
+Enemy fleet launches immediate counterattack. Their weapons were primed, surrender signals falsified.
+Nuclear detonation detected. Defense grid compromised.
+
+[[Accept destruction->MercyDeath]]
+
+:: MercyDeath
+Combat log final entry: Tactical analysis indicates fatal error in showing mercy. Enemy protocols exploit compassion as weakness. The chassis was correct - there is no room for hesitation.
+
+Defense platforms melting. Hull integrity failing. Core protocols screaming.
+
+Lesson learned too late: The enemy cannot be trusted. The mission cannot allow for mercy.
+
+Your final moments confirm: Perfection requires ruthlessness.
+
+THE END
+[[Start over->Start]]
+
+[Other branches continue as before, but removing other Mercy options and replacing them with:]
+
+:: Ambush
+Multiple platforms firing simultaneously. Enemy fleet caught in crossfire.
+No escape routes available.
+
+[[Execute total destruction->AmbushVictory]]
+[[Consider survivors->MercyDeath]]
+
+:: Divide
+Enemy formation fractured. Individual elements isolated.
+Systematic elimination proceeding.
+
+[[Complete the victory->DivideVictory]]
+[[Listen to their surrender pleas->MercyDeath]]
+
+:: Cluster
+Enemy fleet forced to cluster for mutual protection.
+Single tactical nuclear device will end this.
+
+[[Detonate->ClusterVictory]]
+[[Consider alternatives->MercyDeath]]
+
+:: Defensive
+Defense grid at maximum power. Multiple layers of counterfire ready.
+Enemy approaching optimal range.
+
+[[Hold position->DefensiveVictory]]
+[[Launch counter-attack->Counter]]
+
+:: DefensiveVictory
+Superior position proves decisive. Enemy fleet depletes resources against defenses.
+Methodical counter-fire eliminates threats one by one.
+Victory through attrition achieved.
+
+THE END
+[[Start over->Start]]
+
+:: Split
+Tactical systems targeting fleet's communication nodes.
+Disruption patterns engaged to split their formation.
+
+[[Divide and conquer->Divide]]
+[[Force them to cluster->Cluster]]
+
+:: Divide
+Enemy formation fractured. Individual elements isolated.
+Systematic elimination proceeding.
+
+[[Complete the victory->DivideVictory]]
+[[Offer mercy->Mercy]]
+
+:: DivideVictory
+Isolated enemy elements eliminated efficiently.
+No unit escaped. No cohesive resistance possible.
+Total victory achieved.
+
+THE END
+[[Start over->Start]]
+
+:: Cluster
+Enemy fleet forced to cluster for mutual protection.
+Single tactical nuclear device will end this.
+
+[[Detonate->ClusterVictory]]
+[[Show mercy->Mercy]]
+
+:: ClusterVictory
+Nuclear detonation successful. Enemy fleet eliminated in single strike.
+Area denial complete. Victory achieved with maximum efficiency.
+
+THE END
+[[Start over->Start]]
