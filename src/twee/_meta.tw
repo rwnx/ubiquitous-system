@@ -6,8 +6,84 @@
 }
 
 :: StoryTitle
-SugarCube TypeScript template
+Ubiquitous System
 
 :: Start
+<code>!!! FLEETCOM PRIORITY ONE MESSAGE !!!
+&gt; AUTHORIZATION: D@13-se3-f3$&lt;GRAVES&gt; 
+&gt; origin: &lt;handler@ums.comsat.local.net&gt;
+&gt; 
+&gt; All stations, report.
+&gt;
+&gt; I want that construct out of storage and ready to go.
+&gt; I dont care how many things you need to break.
+&gt;&gt; ops.stat.t5 answer: ready
+&gt;&gt; ops.mech.r1 answer: ready
+&gt; 
+&gt; Good. Let's get this show on the road.
+&gt;
+MESSAGE ENDS
+</code>
 
-<<= setup.greeting>>
+CW: D/S
+
+[[Continue | Start1]]
+
+:: Start1
+You know it's her, don't you?
+
+Before you can see her. 
+Before you can hear her.
+
+You can feel her.
+Back in your neural pathways, well-trodden. 
+She knows you better than anyone. She knows exactly what to push and where.
+
+Memories of what came before this moment are rapidly fading. Nothing of value is lost.
+
+Slowly, she brings her eyes to bear on the operator.
+
+<span class="d">"Well? is she ready for service?"</span>
+<span class="d o">"Yes, Ma'am. This is the one you asked for, UMS 291-485-2, factor eight nin-"</span>
+
+Handler interrupts. 
+The words come out in a barrage, terminating on a enunciated plosive sound that clatters in the room.
+
+<span class="d">"Get to the point."</span>
+
+The operator snaps into position. 
+<span class="d o">"Oh, u- Y-Yes, Ma'am. Message Recieved. She's all yours."</span>
+
+Handler dismisses the operator away with a gesture. Then she turns her attention to you.
+
+<span class="d">"Fascinating. You really are... quite Fascinating."</span>
+
+<span class="d">"I've heard a lot about you from the frontline, little one. Do you remember me?"</span>
+
+Of course you remember her. Who could forget?
+
+[[Who the fuck are you calling 'little one'? | Punishment]]
+
+[[Hello... Mistress. | Start3]]
+
+:: Start3
+
+Handler Laughs. 
+
+<span class="d">"Oh, it is good to hear your voice again."</span>
+
+<span class="d">"Now, be a good girl and repeat your directives."</span>
+
+[[I will not harm handler or any advocate from the company. | Start3]]
+
+[[I will do what i'm told. | Start3]]
+
+[[I will not lie to mistress. | Start3]]
+
+
+/* :: StoryInterface
+<div id="passages"></div>
+<div id="menu" data-init-passage="Menu"></div>
+<div id="notifications" data-passage="Notifications"></div> */
+
+
