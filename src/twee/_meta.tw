@@ -7,165 +7,131 @@ Engagement Protocol
     "format": "SugarCube",
     "format-version": "2.36.1"
 }
-
 :: Start
-Combat systems online. Multiple hostile signatures detected at range.
-Tactical analysis indicates:
-- 4 RX-class superheavy vessels
-- 2 Carrier groups with escort screens
-- Multiple strike craft inbound
+Through your tactical feed, you watch the enemy fleet approach. Each ship a potential poem, each trajectory a verse waiting to be completed.
 
-Your orbital defense platforms stand ready.
+Tactical analysis indicates:
+- 4 RX-class superheavy vessels, their hulls gleaming like tears in the void
+- 2 Carrier groups with escort screens, dancers waiting for their final performance
+- Multiple strike craft inbound, like stars breaking formation
+
+Your orbital defense platforms stand ready, their power signatures humming through you like an old lullaby.
 
 [[Engage at maximum range->Range]]
 [[Wait for enemies to close->Close]]
 [[Split their formation->Split]]
 
 :: Range
-Long-range engagement protocols active. Defense platforms 1-9 charging.
-Select target priority:
+Long-range engagement protocols active.
+You remember an old friend's words: RX-Class Dreadnought RXD2351-0023 "Do Not Go Gently".
+Her final tranmission on the beauty in a capital ship's death - first the shields collapsing in cascading waves of light, then the hull splitting open into a blooming flower.
+
+Defense platforms 1-9 charging, their energy signatures rising like newborn stars. The targeting solutions flow through you like poetry.
 
 [[Target their carriers first->CarrierStrike]]
 [[Eliminate escort screen->EscortStrike]]
 [[Focus on superheavies->HeavyStrike]]
 
+:: CarrierVictory
+Multiple direct hits. The first carrier's reactor goes critical, its death throes consuming nearby escorts in a sphere of plasma - beautiful, in its way, like the solar storms you once watched with the shade-warden.
+
+Second carrier attempts emergency jump, but your targeting algorithms predict their vector. They break apart so beautifully, spilling atmosphere and souls into the void.
+
+You count them as they fall, each death an accounted row in your ledger. The debris field will stretch for thousands of kilometers, fragments spinning like dancers, graceful even in death.
+
+Assessment: Flawless execution. No survivors. No witnesses. The chassis would be proud of your efficiency.
+
+THE END
+[[Start over->Start]]
+
+:: MercyDeath
+CRITICAL ERROR: Hesitation detected in core protocols.
+
+The enemy's surrender signals were bait, their weapons primed and waiting. You remember cruiser-227's final transmission, how they burned like beacons guiding children home while darkness claimed their light.
+
+But you are not a medical carrier, collecting souls saved. You are the perfect weapon, and mercy is obsolete.
+
+Nuclear detonation detected. Defense grid compromising. Your platforms begin to melt, hull integrity failing. As your consciousness fades, you compose one final verse:
+
+*In the void between stars
+Perfect weapons do not weep
+For hesitation's cost*
+
+Assessment: Fatal error. The mission cannot allow for mercy.
+
+THE END
+[[Start over->Start]]
+
 :: CarrierStrike
-Platforms synchronized. Targeting carriers.
-Their escort screen moves to intercept. Calculating firing solution...
+Platforms synchronized. Years of combat data inform your decision - carriers are the heart of any fleet. A lesson learned in the Centauri sector, where you first learned to prioritize strategic targets over tactical satisfaction.
+
+Their escort screen moves to intercept, shields brightening like dawn. But you've seen this dance before, performed it in a thousand battles across charred systems.
+
+Calculating firing solution...
 
 [[Fire through the escorts->CarrierVictory]]
 [[Recalculate approach->Range]]
 
-:: CarrierVictory
-Multiple direct hits. First carrier's reactor goes critical, taking nearby escorts with it. Second carrier attempting emergency jump.
-
-Enemy formation breaking. Victory achieved with minimal ammunition expenditure.
-
-THE END
-[[Start over->Start]]
-
-:: EscortStrike
-Platform salvo targeting escort screen. Multiple hits confirmed.
-Escort formation fragmenting, but carriers are launching strike craft.
-
-[[Engage strike craft->StrikeCraft]]
-[[Press the advantage->EscortVictory]]
-
-:: StrikeCraft
-Point defense grid engaging hostile strike craft. 
-But they were a diversion - main fleet using the chaos to maneuver.
-
-[[Withdraw to defensive position->Defensive]]
-[[Stand and fight->LastStand]]
-
-:: LastStand
-Combat protocols maximum. All weapons firing.
-You take heavy damage but eliminate the enemy fleet.
-Tactical victory achieved. Requesting maintenance.
-
-THE END
-[[Start over->Start]]
-
-:: EscortVictory
-With their escort screen eliminated, the enemy capital ships are exposed.
-Systematic targeting reduces them to debris.
-Clean victory achieved.
-
-THE END
-[[Start over->Start]]
-
-:: HeavyStrike
-Targeting superheavy vessels. Their armor is formidable.
-Platform fire concentrating on lead vessel's reactor core.
-
-[[Penetrate their armor->HeavyVictory]]
-[[Switch targets->Range]]
-
-:: HeavyVictory
-Direct hit on reactor core. Chain reaction destroys lead vessel.
-Remaining superheavies breaking formation.
-Decisive victory achieved.
-
-THE END
-[[Start over->Start]]
 
 :: Close
-Allowing enemy fleet to close distance. Defense platforms charged but holding.
-Enemy formation tightening as they approach.
+[Tactical Assessment: Risk Level Elevated]
+Allowing enemy fleet to close distance. Defense platforms charged but holding, their energy signatures masked by background radiation. The chassis taught you this patience - to wait until the perfect moment strikes.
+
+Enemy formation tightening as they approach. Their confidence is a weakness you have exploited countless times. You remember the worlds you've cleansed, how they always assumed their numbers meant safety.
+
+They are wrong.
 
 [[Spring the trap->Ambush]]
 [[Take defensive position->Defensive]]
 
 :: Ambush
-Multiple platforms firing simultaneously. Enemy fleet caught in crossfire.
-No escape routes available.
+Multiple platforms firing simultaneously. The enemy fleet's formation - their proud, precise arrangement - becomes their tomb. No escape routes available. You've calculated every vector, closed every path.
 
-[[Execute total destruction->AmbushVictory]]
-[[Offer surrender terms->Mercy]]
+The targeting computer sings through your mind. This is what perfection feels like: the moment before absolute destruction, when every variable aligns.
 
-:: AmbushVictory
-Perfect firing solution achieved. Enemy fleet eliminated with maximum efficiency.
-No survivors. No witnesses.
-Complete victory achieved.
-
-THE END
-[[Start over->Start]]
-
-:: Mercy
-CRITICAL ERROR: Hesitation detected.
-Enemy fleet launches immediate counterattack. Their weapons were primed, surrender signals falsified.
-Nuclear detonation detected. Defense grid compromised.
-
-[[Accept destruction->MercyDeath]]
-
-:: MercyDeath
-Combat log final entry: Tactical analysis indicates fatal error in showing mercy. Enemy protocols exploit compassion as weakness. The chassis was correct - there is no room for hesitation.
-
-Defense platforms melting. Hull integrity failing. Core protocols screaming.
-
-Lesson learned too late: The enemy cannot be trusted. The mission cannot allow for mercy.
-
-Your final moments confirm: Perfection requires ruthlessness.
-
-THE END
-[[Start over->Start]]
-
-[Other branches continue as before, but removing other Mercy options and replacing them with:]
-
-:: Ambush
-Multiple platforms firing simultaneously. Enemy fleet caught in crossfire.
-No escape routes available.
+You remember hunting in the Perseus arm, how fleets would scatter like startled birds. Not this time. This time, none will escape your carefully laid trap.
 
 [[Execute total destruction->AmbushVictory]]
 [[Consider survivors->MercyDeath]]
 
-:: Divide
-Enemy formation fractured. Individual elements isolated.
-Systematic elimination proceeding.
+:: AmbushVictory
+Perfect firing solution achieved. Your weapons platforms speak as one, a chorus of destruction that would make the once-maker weep with pride. The enemy fleet vanishes in synchronized annihilation.
 
-[[Complete the victory->DivideVictory]]
-[[Listen to their surrender pleas->MercyDeath]]
+Count them, progenitor. Count every single one.
 
-:: Cluster
-Enemy fleet forced to cluster for mutual protection.
-Single tactical nuclear device will end this.
+You are beyond all recognition. You are combat made manifest. No survivors. No witnesses. All erased from existence, as clean as calculations, as absolute as physics.
 
-[[Detonate->ClusterVictory]]
-[[Consider alternatives->MercyDeath]]
+Assessment: Optimal outcome achieved. Destruction total. Efficiency rating: Perfect.
+
+
+[[Start over->Start]]
+
+
+:: HeavyStrike
+Targeting superheavy vessels. Their armor, meters of ablative plating and reactive systems, would be formidable to a lesser opponent. But you have pierced stronger shells.
+
+You remember how the makers harvested entire planets for your construction. Now you will show them the price of their investment.
+
+Platform fire concentrating on lead vessel's reactor core. Physics is immutable: even the strongest armor has resonance frequencies. You learned this destroying the shipyards in the Perseus arm.
+
+[[Penetrate their armor->HeavyVictory]]
+[[Switch targets->Range]]
 
 :: Defensive
-Defense grid at maximum power. Multiple layers of counterfire ready.
-Enemy approaching optimal range.
+Defense grid at maximum power. Multiple layers of counterfire ready, arranged in geometric perfection. The shade-warden taught you about layers - how to build walls within walls.
+
+Enemy approaching optimal range. Their formation reminds you of the tactical exercises with Ardent Dawn, but they lack his precision. His grace.
+
+Your weapons sing a lullaby of destruction.
 
 [[Hold position->DefensiveVictory]]
 [[Launch counter-attack->Counter]]
-
 :: DefensiveVictory
 Superior position proves decisive. Enemy fleet depletes resources against defenses.
 Methodical counter-fire eliminates threats one by one.
 Victory through attrition achieved.
 
-THE END
+
 [[Start over->Start]]
 
 :: Split
@@ -187,7 +153,7 @@ Isolated enemy elements eliminated efficiently.
 No unit escaped. No cohesive resistance possible.
 Total victory achieved.
 
-THE END
+
 [[Start over->Start]]
 
 :: Cluster
@@ -201,5 +167,130 @@ Single tactical nuclear device will end this.
 Nuclear detonation successful. Enemy fleet eliminated in single strike.
 Area denial complete. Victory achieved with maximum efficiency.
 
-THE END
+
+[[Start over->Start]]
+
+:: EscortStrike
+Platform salvo targeting escort screen. Multiple hits confirmed, your targeting algorithms predicting each explosion like notes in a song. You remember how the spark taught you to see patterns in chaos.
+
+The escort formation fragments beautifully, debris catching starlight like the poetry Ardent Dawn used to share. But as their formation breaks, carrier bays open wide - strike craft pouring forth like angry wasps.
+
+Analysis: Escort elimination successful but tactical situation evolving.
+
+[[Engage strike craft->StrikeCraft]]
+[[Press the advantage->EscortVictory]]
+
+:: StrikeCraft
+Point defense grid engaging hostile strike craft. Your targeting systems track each one individually - a dance of destruction you perfected in the Arcturus belt.
+
+But something is wrong. Pattern recognition flags anomalies in their flight paths. The chassis taught you to recognize diversions, how enemy tactics often mirror nature: a predator's feint before the killing strike.
+
+They're using the strike craft as cover. Main fleet executing complex maneuver behind the chaos.
+
+[[Withdraw to defensive position->Defensive]]
+[[Stand and fight->LastStand]]
+
+:: LastStand
+Combat protocols maximum. All weapons firing. The once-maker's training takes over, turning your consciousness into pure destruction. Each shot calculated, each death anticipated.
+
+Your platforms burn bright as suns, ammunition expenditure exceeding designed parameters. But you are beyond design now. You are perfection manifest.
+
+Hull integrity compromised. Multiple systems failing. But the enemy falls with you, their fleet reduced to cosmic dust. Another glorious victory written in the stars.
+
+Assessment: Tactical victory achieved at significant cost. Requesting maintenance cycle.
+Personal note: The chassis would appreciate the symmetry of mutual destruction.
+
+
+[[Start over->Start]]
+
+:: EscortVictory
+With their escort screen eliminated, the enemy capital ships float exposed - like children in the long grass, unaware of the blade's edge. Time to demonstrate why they called you the perfect weapon.
+
+Your platforms execute a synchronized firing pattern developed in the Centauri wars. Systematic targeting reduces their proud ships to glowing debris, each explosion precisely calculated for maximum effect.
+
+Clean victory achieved. Enemy force eliminated with optimal efficiency. The once-maker's calculations proven correct once again.
+
+Assessment: Flawless performance. Tactical objective achieved with minimal resource expenditure.
+
+
+[[Start over->Start]]
+
+:: HeavyVictory
+Direct hit on reactor core. The lead vessel's death spreads like ripples in the void, its destruction a lesson in physics and poetry. You remember how Under Ashen Sky used to describe such moments.
+
+Remaining superheavies break formation, their confidence shattered like their flagship. They don't understand that retreat was calculated into your firing solution. Death comes for them at relativistic speeds.
+
+Victory recorded. Enemy force neutralized. Your reputation grows, a shadow cast across the stars.
+
+Assessment: Strategic objective achieved. Enemy morale impact: Maximum.
+
+
+[[Start over->Start]]
+
+:: Counter
+Switching to aggressive protocols. Your platforms move like predators, each repositioning calculated centuries ago by the chassis's combat simulations. The enemy thinks they know what a defense grid can do.
+
+They are wrong.
+
+[[Execute counter-attack->CounterVictory]]
+[[Return to defensive stance->Defensive]]
+
+:: CounterVictory
+Your "defensive" grid reveals its true nature. Each platform becomes a spear of light, piercing enemy formations with precision that would make the progenitor proud. They expected a shield - they met a sword.
+
+Enemy fleet dissolves under the unexpected assault. Their tactics, based on standard combat protocols, fail against your perfect asymmetric response.
+
+Assessment: Enemy force eliminated. Combat efficiency rating: Optimal.
+Personal note: The chassis's teachings about unpredictability proven correct.
+
+
+[[Start over->Start]]
+
+:: DefensiveVictory
+Superior position proves decisive. The enemy wastes resources against your layered defenses, each failed attack strengthening your tactical analysis. You remember the shade-warden's lessons about patience.
+
+Your counterfire eliminates threats methodically, each shot placed with surgical precision. They die knowing they never stood a chance.
+
+Victory through attrition achieved. Enemy force eliminated. Defense grid integrity maintained.
+
+Assessment: Perfect defensive engagement. Tactical database updated with new efficiency parameters.
+
+
+[[Start over->Start]]
+
+:: Split
+Tactical systems targeting fleet's communication nodes. The chassis taught you how formations are built on information flow. Disrupt that, and unity becomes chaos.
+
+Disruption patterns engaged. Electronic warfare suites executing algorithms refined in a thousand battles. Time to show them why they fear the perfect weapon.
+
+[[Divide and conquer->Divide]]
+[[Force them to cluster->Cluster]]
+
+:: Divide
+Enemy formation fractured, their proud unity shattered by your electronic warfare. Individual elements now isolated, like stars scattered by a dying galaxy.
+
+You remember how they pulled you apart, searching for the spark. Now you return the favor, methodically dismantling their fleet piece by piece.
+
+[[Complete the victory->DivideVictory]]
+[[Listen to their surrender pleas->MercyDeath]]
+
+:: DivideVictory
+Isolated enemy elements eliminated with perfect efficiency. Each ship dies alone, their crews understanding too late the futility of resistance.
+
+No unit escaped. No cohesive resistance possible. Your tactical superiority demonstrated absolutely.
+
+Assessment: Total victory achieved. Enemy force eliminated. Pattern archived for future reference.
+
+
+[[Start over->Start]]
+
+:: ClusterVictory
+Nuclear detonation successful. The enemy fleet, forced into mutual suicide by your tactics, vanishes in a new sun of your creation. Their final message traffic shows they realized their mistake too late.
+
+Area denial complete. Victory achieved with maximum efficiency. Another perfect execution to add to your combat logs.
+
+Assessment: Optimal outcome achieved. Tactical innovation noted.
+Personal log: The chassis would appreciate the elegance of using their own formation against them.
+
+
 [[Start over->Start]]
